@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     postcss = require('gulp-postcss'),
     autoprefixer = require('autoprefixer'),
     precss = require('precss'),
-//  cssnano = require('cssnano'),
+    cssnano = require('cssnano'),
     animation = require('postcss-animation'),
     browserSync = require('browser-sync').create(),
     concat = require('gulp-concat'),
@@ -25,7 +25,7 @@ gulp.task('css', function() {
     precss(),
     animation(),
     autoprefixer(),
-//    cssnano()
+    cssnano({ discardComments: false })
   ]))
   .on('error', gutil.log)
   .pipe(gulp.dest(dest))
