@@ -1,0 +1,36 @@
+.outer-content {
+    width: 85.2%;
+    margin: 0 auto;
+    @media $medium {
+        width: 85.2%;
+    }
+    @media $large {
+        width: 85.2%;
+    }
+    @media $ex-large {
+        width: 85.2%;
+        max-width: 90000000px;
+    }
+}
+
+.std-content-area {
+    width: 85.2%;
+    margin: 0 auto;
+    @media $medium {
+        width: 58.9%;
+    }
+    @media $large {
+        width: 58.9%;
+    }
+    @media $ex-large {
+        width: 58.9%;
+        max-width: 90000000px;
+    }
+}
+
+.background-image {
+    //might want this somewhere else.
+    @media $medium {}
+    @media $large {}
+    @media $ex-large {}
+}
