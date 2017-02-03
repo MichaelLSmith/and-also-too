@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "description": "a custom WP theme for Movement Media Site",
   "main": "gulpfile.js",
-  "dependencies": {},
+  "dependencies": {
+    "macy": "^1.1.1"
+  },
   "devDependencies": {
     "autoprefixer": "^6.1.1",
     "browser-sync": "^2.14.0",
+    "browserify": "^14.0.0",
     "cssnano": "^3.3.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
@@ -28,14 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MichaelLSmith/movement-media"
+    "url": "git+https://github.com/MichaelLSmith/and-also-too"
   },
   "author": "Michael L Smith",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MichaelLSmith/movement-media/issues"
+    "url": "https://github.com/MichaelLSmith/and-also-too/issues"
   },
-
-  "homepage": "https://github.com/MichaelLSmith/movement-media#readme"
-  
+  "homepage": "https://github.com/MichaelLSmith/and-also-too#readme"
 }

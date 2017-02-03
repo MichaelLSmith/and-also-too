@@ -13,8 +13,10 @@
 @import 'frequent_elements/mixins';
 @import 'frequent_elements/typography';
 @import 'frequent_elements/content';
+
 @import 'frequent_elements/layouts';
 @import 'page_specific/header';
+@import 'page_specific/home';
 @import 'page_specific/footer';
 @import 'page_specific/about';
 @import 'page_specific/contact';
