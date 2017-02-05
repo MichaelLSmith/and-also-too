@@ -25,7 +25,6 @@
 				<i class="fa fa-linkedin-square" aria-hidden="true"></i>
 			</div>
 		</div>
-
 		<div class="footer-phone">
 			<div class="contact-phone">Canada (416)628-8452</div>
 			<div class="contact-phone">USA (802)730 0091</div>

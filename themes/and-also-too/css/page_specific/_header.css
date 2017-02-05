@@ -19,9 +19,9 @@
     background: purple;
 }*/
 
-/*site-footer*/
+/**/
 
-.footer-container {
+.site-footer {
     align-items: center;
 
     @media $medium {
