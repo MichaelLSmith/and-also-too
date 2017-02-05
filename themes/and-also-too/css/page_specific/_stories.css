@@ -1,12 +1,117 @@
-.story-summary {
-    border: solid black 1px;
+/*.story-summary {
+    background-color: purple;
 }
+.first-story {
+    width: 50%;
+}
+.story-width {
+    width: 20%;
+}
+.story-summary {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+.grid-item {
+    float: left;
+}
+
 .story-img {
-    
+
 }
 .story-title {
 
 }
 .story-italic {
 
+}*/
+/*.first-story {
+    width: 800px;
 }
+
+.grid {
+  -webkit-column-count: 4;
+     -moz-column-count: 4;
+          column-count: 4;
+  -webkit-column-gap: 0;
+     -moz-column-gap: 0;
+          column-gap: 0;
+}
+@media (max-width: 1200px) {
+  .masonry {
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3;
+  }
+}
+@media (max-width: 1000px) {
+  .masonry {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+  }
+}
+@media (max-width: 600px) {
+  .masonry {
+    -webkit-column-count: 1;
+       -moz-column-count: 1;
+            column-count: 1;
+  }
+}
+.grid-item {
+  background-color: #fff;
+  display: inline-block;
+  background-color: #fff;
+  padding: 1em;
+  margin: 0.5em;
+  padding: calc(($masonryGap * 2));
+}*/
+
+.aa2col-flex {
+    display: flex;
+    /*background-color: blue;*/
+}
+
+.first-story {
+    flex-basis: 50%;
+    /*width: 50%;*/
+}
+
+.masonry-layout {
+  column-count: 3;
+  column-gap: 0;
+}
+.masonry-layout-panel {
+  break-inside: avoid;
+  padding: 5px;
+}
+.masonry-layout-panel__content {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/*.masonry-layout-cluster {
+  display: flex;
+  padding: 0;
+}
+.masonry-layout-cluster--vertical {
+  flex-direction: row;
+}
+.masonry-layout-cluster--horizontal {
+  flex-direction: column;
+}
+.masonry-layout-cluster__segment {
+  display: flex;
+  flex: 1 1 auto;
+}
+.masonry-layout-cluster__segment--row {
+ flex-direction: row;
+}
+.masonry-layout-cluster__segment--column {
+  flex-direction: column;
+}
+.masonry-layout-cluster__segment--half {
+  flex-basis: 50%;
+}
+.masonry-layout-cluster__segment--quarter {
+  flex-basis: 25%;
+}*/
