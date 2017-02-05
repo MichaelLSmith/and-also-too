@@ -114,10 +114,7 @@ function and_also_too_scripts() {
 
 	wp_enqueue_script( 'and-also-too-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
-	//used to load macy.js -- if we decide to use masonry instead, delete macy.js Enqueue.
-	// wp_enqueue_script( 'bundle', get_template_directory_uri() . '/js/bundle.js', array(), '20151215', true );
-	wp_enqueue_script( 'app-masonry', get_template_directory_uri() . '/js/app-masonry.js', array('masonry'), '20151215', true );
-	// wp_enqueue_script('masonry');
+	wp_enqueue_script( 'app-masonry', get_template_directory_uri() . '/js/app-masonry.js', array('masonry'), '', true );
 
 	wp_enqueue_script( 'and-also-too-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
 

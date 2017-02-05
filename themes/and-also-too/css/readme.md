@@ -7,3 +7,5 @@ From building blog roll page: Feb 3
 -need .page-title class defined. This will be how page titles display such as "Blog"
 
 -Do we want "next post" on individual posts
+
+-Added .page-title to _content.css

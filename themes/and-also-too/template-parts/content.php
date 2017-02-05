@@ -13,20 +13,39 @@
 	<div class="outer-content blog-date-flex">
 		<?php
 		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php and_also_too_posted_on(); ?>
+		<div class="blog-entry-meta-medium">
+			<div class="date-container">
+				<?php
+				// and_also_too_posted_on(); ?>
+				<span class="blog-date-num">30</span>
+				<span class="blog-date-month">nov</span>
+				<span class="blog-date-year">2016</span>
+			</div>
+			<div class="blog-category">debrief</div>
 		</div><!-- .entry-meta -->
 		<?php endif; ?>
 
-		<div class="flex-col-2">
-			<div class="featured-image std-content-area">
+		<div class="blog-content std-content-area">
+			<!--  -->
+			<div class="featured-image">
 				<?php
 				if ( has_post_thumbnail() ) {
 				    the_post_thumbnail();
 				}
 				?>
 			</div><!-- .featured-image -->
-			<div class="blog-title std-content-area">
+			<div class="blog-entry-meta">
+				<div class="date-container">
+					<?php
+					// and_also_too_posted_on(); ?>
+					<span class="blog-date-num">30</span>
+					<span class="blog-date-month">nov</span>
+					<span class="blog-date-year">2016</span>
+				</div>
+				<div class="blog-category">debrief</div>
+			</div><!-- .entry-meta -->
+
+			<div class="blog-title">
 				<?php
 				if ( is_single() ) :
 					the_title( '<h1 class="entry-title">', '</h1>' );
@@ -34,7 +53,7 @@
 					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 				endif; ?>
 			</div><!-- .blog-title -->
-			<div class="entry-content std-content-area">
+			<div class="entry-content">
 				<?php
 
 					if ( is_single() ) :
@@ -56,6 +75,7 @@
 						 <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></div>
 					<?php endif; ?>
 			</div><!-- .entry-content -->
-		</div><!-- .flex-col2 -->
+		</div>
+		<!-- .flex-col2  -->
 	</div><!-- .outer-content -->
 </article><!-- #post-## -->

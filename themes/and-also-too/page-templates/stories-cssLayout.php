@@ -24,69 +24,79 @@ get_header(); ?>
 
 				<div class="entry-content">
 					<div class="outer-content masonry-layout">
-						<div class="masonry-layout__panel">
-							<div class="first-story masonry-layout-panel__content">
-								<img class="story-img" src="http://and-also-too.dev/wp-content/uploads/2017/02/story-photo1-1.png">
-								<h2 class="story-title">Name of the Project in One Line 1</h1>
-								<h3 class="story-italic">with Provincial Advocate for Children & Youth</h3>
-							</div><!-- story-summary -->
-						<div class="masonry-layout__panel">
+						<div class="masonry-layout-panel masonry-layout-cluster masonry-layout-cluster--vertical">
+
+  						<div class="masonry-layout-cluster__segment masonry-layout-cluster__segment--column">
+							<div class="masonry-layout-panel masonry-layout-cluster__segment">
+								<div class="first-story masonry-layout-panel__content">
+									<img class="story-img" src="http://and-also-too.dev/wp-content/uploads/2017/02/story-photo1-1.png">
+									<h2 class="story-title">Name of the Project in One Line 1</h1>
+									<h3 class="story-italic">with Provincial Advocate for Children & Youth</h3>
+								</div><!-- story-summary masonry-layout-panel__content -->
+							</div><!-- masonry-layout-panel masonry-layout-cluster__segment -->
+						</div><!-- masonry-layout-cluster__segment masonry-layout-cluster__segment--column -->
+
+
+
+
+						<div class="masonry-layout-panel">
 							<div class="masonry-layout-panel__content">
 								<img class="story-img" src="http://and-also-too.dev/wp-content/uploads/2017/02/story-photo2-1.png" alt="" />
 								<h2 class="story-title">Name of the Project in One Line 2</h1>
 								<h3 class="story-italic">with Provincial Advocate for Children & Youth</h3>
-							</div><!-- story-summary -->
-						</div><!-- masonry-layout__panel -->
+							</div><!-- story-summary masonry-layout-panel__content -->
 
-						<div class="masonry-layout__panel">
+						</div><!-- masonry-layout-panel -->
+
+						<div class="masonry-layout-panel">
 							<div class="masonry-layout-panel__content">
 								<img class="story-img" src="http://and-also-too.dev/wp-content/uploads/2017/02/story-photo3.png" alt="" />
 								<h2 class="story-title">Name of the Project in One Line 3</h1>
 								<h3 class="story-italic">with Provincial Advocate for Children & Youth</h3>
-							</div><!-- story-summary --></div>
-						</div><!-- masonry-layout__panel -->
-							<div class="masonry-layout__panel">
+							</div><!-- story-summary masonry-layout-panel__content --></div>
+						</div><!-- masonry-layout-panel -->
+							<div class="masonry-layout-panel">
 								<div class="masonry-layout-panel__content">
 									<img class="story-img" src="http://and-also-too.dev/wp-content/uploads/2017/02/story-Photo4.png" alt="" />
 									<h2 class="story-title">Name of the Project in One Line 4</h1>
 									<h3 class="story-italic">with Provincial Advocate for Children & Youth</h3>
-								</div><!-- story-summary -->
-							</div><!-- masonry-layout__panel -->
-							<div class="masonry-layout__panel">
+								</div><!-- story-summary masonry-layout-panel__content -->
+							</div><!-- masonry-layout-panel -->
+							<div class="masonry-layout-panel">
 								<div class="masonry-layout-panel__content">
 									<img class="story-img" src="http://and-also-too.dev/wp-content/uploads/2017/02/story-Photo5.png" alt="" />
 									<h2 class="story-title">Name of the Project in One Line 5</h1>
 									<h3 class="story-italic">with Provincial Advocate for Children & Youth</h3>
-								</div><!-- story-summary -->
-							</div><!-- masonry-layout__panel -->
-							<div class="masonry-layout__panel">
+								</div><!-- story-summary masonry-layout-panel__content -->
+							</div><!-- masonry-layout-panel -->
+							<div class="masonry-layout-panel">
 								<div class="masonry-layout-panel__content">
 									<img class="story-img" src="http://and-also-too.dev/wp-content/uploads/2017/02/story-photo1-1.png" alt="" />
 									<h2 class="story-title">Name of the Project in One Line 6</h1>
 									<h3 class="story-italic">with Provincial Advocate for Children & Youth</h3>
-								</div><!-- story-summary -->
-							</div><!-- masonry-layout__panel -->
-							<div class="masonry-layout__panel">
+								</div><!-- story-summary masonry-layout-panel__content -->
+							</div><!-- masonry-layout-panel -->
+							<div class="masonry-layout-panel">
 								<div class="masonry-layout-panel__content">
 									<img class="story-img" src="http://and-also-too.dev/wp-content/uploads/2017/02/story-photo3.png" alt="" />
 									<h2 class="story-title">Name of the Project in One Line 7</h1>
 									<h3 class="story-italic">with Provincial Advocate for Children & Youth</h3>
-								</div><!-- story-summary -->
-							</div><!-- masonry-layout__panel -->
-							<div class="masonry-layout__panel">
+								</div><!-- story-summary masonry-layout-panel__content -->
+							</div><!-- masonry-layout-panel -->
+							<div class="masonry-layout-panel">
 								<div class="masonry-layout-panel__content">
 									<img class="story-img" src="http://and-also-too.dev/wp-content/uploads/2017/02/story-photo2-1.png" alt="" />
 									<h2 class="story-title">Name of the Project in One Line 8</h1>
 									<h3 class="story-italic">with Provincial Advocate for Children & Youth</h3>
-								</div><!-- story-summary -->
-							</div><!-- masonry-layout__panel -->
-						<div class="masonry-layout__panel">
+								</div><!-- story-summary masonry-layout-panel__content -->
+							</div><!-- masonry-layout-panel -->
+						<div class="masonry-layout-panel">
 							<div class="masonry-layout-panel__content">
 								<img class="story-img" src="http://and-also-too.dev/wp-content/uploads/2017/02/story-photo1-1.png" alt="" />
 								<h2 class="story-title">Name of the Project in One Line 9</h1>
 								<h3 class="story-italic">with Provincial Advocate for Children & Youth</h3>
-							</div><!-- story-summary -->
-						</div><!-- masonry-layout__panel -->
+							</div><!-- story-summary masonry-layout-panel__content -->
+						</div><!-- masonry-layout-panel -->
 				</div><!-- .outer-content-->
 			</div><!-- .entry-content -->
 

@@ -11,6 +11,9 @@
 .hentry {
 	margin: 0 0 1.5em;
 }
+.page-title {
+	text-align: center;
+}
 
 .byline,
 .updated:not(.published) {
