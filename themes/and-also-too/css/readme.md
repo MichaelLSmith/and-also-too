@@ -8,4 +8,6 @@ From building blog roll page: Feb 3
 
 -Do we want "next post" on individual posts
 
--Added .page-title to _content.css
+-Added .page-title to content.css
+
+-Added footer css to header.css should rename --> header-footer.css
